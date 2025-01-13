@@ -1,0 +1,5 @@
+
+FROM mac 
+
+RUN apt-get update 
+CMD [“echo”,”Image created”] 
