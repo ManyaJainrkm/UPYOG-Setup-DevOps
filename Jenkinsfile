@@ -2,13 +2,13 @@ pipeline {
     agent any
 
     environment {
-        KUBECONFIG = '/path/to/your/kubeconfig'  // Update with the actual KUBECONFIG path
+        KUBECONFIG = '/Users/manyajain/.kube/config'  // Update with the actual KUBECONFIG path
     }
 
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-repo.git' // Replace with your Git repo
+                git 'https://github.com/ManyaJainrkm/UPYOG-DevOps.git' // Replace with your Git repo
             }
         }
 
